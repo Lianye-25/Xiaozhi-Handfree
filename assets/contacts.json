@@ -1,0 +1,61 @@
+{
+  "superiors": [
+    {
+      "name": "张总",
+      "title": "项目负责人",
+      "channels": ["wechat", "email"],
+      "address": "zhang@qq.com"
+    },
+    {
+      "name": "李经理",
+      "title": "部门经理",
+      "channels": ["wechat", "email"],
+      "address": "li@qq.com"
+    },
+    {
+      "name": "王总监",
+      "title": "技术总监",
+      "channels": ["email"],
+      "address": "wang@company.com"
+    }
+  ],
+  "subordinates": [
+    {
+      "name": "小王",
+      "title": "开发工程师",
+      "channels": ["wechat"],
+      "address": ""
+    },
+    {
+      "name": "小明",
+      "title": "数据分析师",
+      "channels": ["wechat", "email"],
+      "address": "xiaoming@qq.com"
+    },
+    {
+      "name": "小红",
+      "title": "UI设计师",
+      "channels": ["wechat"],
+      "address": ""
+    },
+    {
+      "name": "小莲",
+      "title": "",
+      "channels": ["email", "phone"],
+      "address": "xiaolian@example.com",
+      "phone": "+8600000000000"
+    }
+  ],
+  "agents": [
+    {
+      "name": "代码审查Agent",
+      "type": "code-review",
+      "description": "负责代码质量审查和优化建议"
+    },
+    {
+      "name": "文档润色Agent",
+      "type": "doc-polish",
+      "description": "负责文档格式优化和语言润色"
+    }
+  ]
+}

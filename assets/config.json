@@ -1,0 +1,27 @@
+{
+  "email": {
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 587,
+    "use_tls": true,
+    "username": "your-email@qq.com",
+    "password": "your-smtp-auth-code",
+    "from_name": "HANDSFREE 五维中枢"
+  },
+  "voice_call": {
+    "stepone_api_key": "sk-xxx",
+    "notify_mode": true
+  },
+  "llm": {
+    "api_key": "sk-xxx",
+    "api_base": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "max_tokens": 4096,
+    "temperature": 0.7
+  },
+  "channels": {
+    "wechat": {
+      "enabled": false,
+      "note": "待实现：企业微信或公众号 API 接入"
+    }
+  }
+}
